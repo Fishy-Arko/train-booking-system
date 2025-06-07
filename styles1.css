@@ -1,0 +1,246 @@
+/* Import Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #1d2671, #c33764); /* Gradient Background */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Form Container */
+.container {
+    background: #fff;
+    width: 400px;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+/* Form Heading */
+h2 {
+    color: #182df2;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/* Form Labels */
+label {
+    font-weight: 500;
+    display: block;
+    text-align: left;
+    margin-top: 15px;
+    color: #333;
+}
+
+/* Input Fields */
+select, input {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    background-color: #f9f9f9;
+    transition: 0.3s;
+}
+
+/* Input Focus Effect */
+select:focus, input:focus {
+    border-color: #1d2671;
+    outline: none;
+    box-shadow: 0px 0px 5px rgba(29, 38, 113, 0.5);
+}
+
+/* Button Styling */
+button {
+    background: #c33764;
+    color: #fff;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: 600;
+    margin-top: 20px;
+    transition: 0.3s;
+}
+
+/* Button Hover Effect */
+button:hover {
+    background: #1d2671;
+}
+
+/* Responsive Design */
+@media (max-width: 480px) {
+    .container {
+        width: 90%;
+    }
+}
+/* Ticket Container */
+.ticket-container {
+    max-width: 450px;
+    background: #fff;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+.ticket-container h2 {
+    color: #c33764;
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/* Ticket Design */
+.ticket {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: inset 0px 0px 5px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.ticket p {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 8px 0;
+    color: #333;
+}
+
+/* Print Button */
+button {
+    background: #1d2671;
+    color: #fff;
+    padding: 12px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #c33764;
+}
+/* 🌅 Gradient Background */
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #1d2671, #c33764);
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+/* 🔍 Search Page Container */
+.search-container {
+    width: 400px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.search-container h1 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+/* 📩 Search Form */
+form {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #091540;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #3b3b98;
+}
+
+/* 🚆 Train List Page */
+.train-list {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.train-list h2 {
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+/* 🚆 Train Card */
+.train-card {
+    background: #ffffff;
+    color: #333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    transition: 0.3s;
+}
+
+.train-card:hover {
+    transform: scale(1.05);
+}
+
+.train-card h3 {
+    font-size: 22px;
+    color: #1d2671;
+}
+
+.train-card p {
+    font-size: 16px;
+    margin: 5px 0;
+}
+
+/* 🎟 Book Now Button */
+.book-btn {
+    display: inline-block;
+    background: #c33764;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.book-btn:hover {
+    background: #8a237a;
+}
